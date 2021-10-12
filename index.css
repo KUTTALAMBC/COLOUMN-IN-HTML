@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Divide 3 col into equal width  */
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 15px 0 rgb(255, 0, 119);
+  }
+  
+  .price .header {
+    background-color: rgb(0, 89, 255);
+    color: whitesmoke;
+    font-size: 28px;
+  }
+  
+  .price li {
+    border-bottom: 4px solid rgb(171, 196, 228);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: lightgray;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .button {
+    border: none;
+    color: rgb(10, 38, 131);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+ /* this is mediaquary for responsiveness of the page*/
+ 
+ 
+ @media only screen and (max-width: 580px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+  div.country{
+    background-color: brown;
+  }

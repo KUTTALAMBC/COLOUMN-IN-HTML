@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOUMN WITH DATA HTML ELEMENT</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        Country:
+        <select name="list" id="list">
+          <option value="">India</option>
+          <option value="">japan</option>
+        </select>
+  
+        <!-- craete a input  -->
+        <input type="text" id="textbox"
+        placeholder="Enter Name toGetlist" />
+        <input
+          type="button"
+          name="button"
+          value="Submit"
+          onClick="getnewCountry()"
+         
+        />
+      </div>
+
+
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Basic</li>
+          <li class="grey">500Rs/Year</li>
+          <li>20GB storage</li>
+          <li>20 Emails</li>
+          <li>20GB Bandwidth</li>
+  
+          <li class="grey"><a href="#" class="button"> Sign Up </a></li>
+        </ul>
+      </div>
+  
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Pro</li>
+          <li class="grey">1000Rs/Year</li>
+          <li>50GB storage</li>
+          <li>50 Emails</li>
+          <li>50GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button"> Sign Up </a></li>
+        </ul>
+      </div>
+  
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Premium</li>
+          <li class="grey">2000Rs/Year</li>
+          <li>2000GB storage</li>
+          <li>2000 Emails</li>
+          <li>100GB Bandwidth</li>
+          <li class="grey"><a href="#" class="button"> Sign Up </a></li>
+        </ul>
+      </div>
+</body>
+</html>
